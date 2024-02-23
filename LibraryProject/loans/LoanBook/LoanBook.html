@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Book</title>
+    <link rel="stylesheet" href="LoanBook.css">
+</head>
+<body>
+    <form action="LoanBook.php" method="post">
+        <fieldset>
+            <legend>LOANS INFOS</legend>
+            <table cellpadding="15px">
+                <tr><td width="58%">User Number :</td><td><input type="text" name="id_usager" required /></td></tr>
+               <!--  <tr><td>Prenom du Usager</td><td><input type="text" name="prenom" /></td></tr> -->
+                <tr><td width="58%">Book Title : </td><td><input type="text" name="exemplaire" required /></td></tr>
+                <tr><td width="43%">Expected Return Date :</td><td ><input type="date" width="600px" name="retour" required/></td></tr>      
+        </table>
+        </fieldset>
+        <button type="submit">Loan The Book</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Book</title>
+    <link rel="stylesheet" href="Return.css">
+</head>
+<body>
+    <form action="Return.php" method="POST">
+        <fieldset>
+            <legend>Return Book INFOS</legend>
+            <table cellpadding="15px">
+                <tr><td>User Number : </td><td><input type="text" name="id_usager" required/></td></tr>
+               <!--  <tr><td>Prenom du Usager</td><td><input type="text" name="prenom" /></td></tr> -->
+                <tr><td>Book Title : </td><td><input type="text" name="exemplaire" required/></td></tr>
+                
+                
+</table>
+        </fieldset>
+
+
+
+        
+        <button type="submit">Return The book</button>
+    </form>
+</body>
+</html>

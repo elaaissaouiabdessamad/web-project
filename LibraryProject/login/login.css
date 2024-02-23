@@ -1,0 +1,107 @@
+@keyframes example {
+    0% {background:url('./images/emil-widlund-xrbbXIXAWY0-unsplash.jpg') no-repeat center center fixed;}
+    50% {background-image:  url('./images/mariia-zakatiura-t7zYZzO_CX0-unsplash.jpg');}
+    100% {background-image:  url('./images/shunya-koide-1emWndlDHs0-unsplash.jpg') ;}
+  }
+  @keyframes example1 {
+	0% {color:white ;}
+	25% {color:rgb(176, 79, 79) ;}
+    50% {color:goldenrod;}
+	75%  {color: rgb(177, 112, 239);}
+    100% {color:yellow;}
+  }
+  @keyframes example2 {
+    0% {color:white ;}
+	25% {color:rgb(176, 79, 79) ;}
+    50% {color:goldenrod;}
+	75%  {color: rgb(177, 112, 239);}
+    100% {color:yellow;}
+  }
+
+body#loginBody{
+	background: url('images/emil-widlund-xrbbXIXAWY0-unsplash.jpg') no-repeat center center fixed;
+	background-size: cover;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+body{	
+	font-family: arial;
+}
+div.loginHeader{
+	text-align: center;
+}
+.alignLeft{
+	text-align: left;
+}
+div.loginHeader{
+	margin-bottom: 150px;
+}
+div.loginHeader h1{
+	font-size: 100px;
+	color:white;
+	padding:0px;
+	margin:0px;
+    animation-name: example1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+div.loginHeader p{
+	color:white;
+	font-size: 50px;
+	margin:0px;
+	text-transform: uppercase;
+	display: inline-block;
+    animation-name: example2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+div.loginBody form{
+	margin:0 auto;
+	width: 450px;
+	background: rgba(0,0,0,.5);
+	padding:50px;
+	border:2px solid #fff;
+	border-radius: 8px;
+}
+
+div.loginInputsContainer{
+	margin-top:30px;
+}
+
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;	
+	font-weight: bold;
+	color:#fff;
+}
+
+div.loginInputsContainer input{
+	height: 30px;
+	width:100%;
+	border:2px solid #d40339;
+	font-size:20px;
+	padding:5px;
+	text-align: center;
+	font-style: italic;
+}
+div.loginButtonContainer{
+	margin-top:40px;
+	text-align: center;
+}
+
+div.loginButtonContainer input{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #df1245;
+	border:none;
+	color: #fff;
+    cursor: pointer;
+}
+
+div.loginButtonContainer input:hover {
+    background:goldenrod;
+    
+}

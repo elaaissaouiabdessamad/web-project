@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./login.css">
+</head>
+<body id="loginBody">
+	<div class="container">
+		<div class="loginHeader">
+			<h1>LMS</h1>
+			<p>Library Management System</p>
+		</div>
+		<div class="loginBody">
+			<form method="post" action="./login.php">
+				<div class="loginInputsContainer">
+					<label for="username">Username</label>
+					<input placeholder="Username" name="username" id="username" type="text" required/>
+				</div>
+				<div class="loginInputsContainer">
+					<label for="password">Password</label>
+					<input placeholder="Password" name="password" id="password" type="password" required/>
+				</div>
+				<div class="loginButtonContainer">
+					<input type="submit" value="Login">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
